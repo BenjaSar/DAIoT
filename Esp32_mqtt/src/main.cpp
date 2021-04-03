@@ -17,14 +17,14 @@ extern "C" {
 }
 #include <AsyncMqttClient.h>
 
-#define WIFI_SSID "MileFabi"
-//#define WIFI_SSID "FibertelWifi4302.4GHz"
+#define WIFI_SSID "xxxxx"
+//#define WIFI_SSID "xxxx"
 
-#define WIFI_PASSWORD "271355000"
-//#define WIFI_PASSWORD "01430130049"
+#define WIFI_PASSWORD "xxxxx"
+//#define WIFI_PASSWORD "xxxxx"
 
 // Raspberry Pi Mosquitto MQTT Broker
-#define MQTT_HOST IPAddress(192, 168, 0, 13)
+#define MQTT_HOST IPAddress(192, 168, 0, xx)
 //#define MQTT_HOST IPAddress(192, 168, 0, 117)
 
 // For a cloud MQTT broker, type the domain name
